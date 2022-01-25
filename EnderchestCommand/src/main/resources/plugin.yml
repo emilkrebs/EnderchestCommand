@@ -1,0 +1,9 @@
+name: EnderchestCommand
+version: '${project.version}'
+main: org.qeston.ec.main.Main
+api-version: 1.18
+commands:
+  ec:
+    description: "Open your enderchest or others"
+    aliases:
+      - enderchest
