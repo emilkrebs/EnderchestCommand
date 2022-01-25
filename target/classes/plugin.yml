@@ -1,0 +1,10 @@
+name: EnderchestCommand
+version: '1.0-SNAPSHOT'
+main: org.qeston.ec.main.Main
+api-version: 1.18
+commands:
+  ec:
+    description: "Open your enderchest or others"
+    aliases:
+      - enderchest
+    usage: "/ec <player name>"
